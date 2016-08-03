@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e65036f3-76c8-4a1a-8dd0-87dd5ab1de34" ChangeDateTime="07/31/2016 00:38:33">
+    <Property Name="ElementName" Value="[dbo].[Articles].[Total]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Articles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Total_In_Shelf" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1527090a-d1c9-4563-80bc-1003a0135b3e" ChangeDateTime="07/31/2016 00:57:34">
+    <Property Name="ElementName" Value="[dbo].[FK_Articles_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Articles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Articles_Stores]" />
+  </Operation>
+</Operations>

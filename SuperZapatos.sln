@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SuperZapatos.Database", "SuperZapatos.Database\SuperZapatos.Database.sqlproj", "{690E763C-2738-416D-839B-0052743CE164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.Repository.SqlServer", "SuperZapatos.Repository.SqlServer\SuperZapatos.Repository.SqlServer.csproj", "{5F1809CB-F401-4E21-B258-A2F808FD4FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.Models", "SuperZapatos.Models\SuperZapatos.Models.csproj", "{7690C943-1775-40FC-9C7B-FA364233D32A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{5738C27A-D7AF-4388-A739-66BFFFB9F862}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{6541C7F7-491F-4AD9-A45D-BCEB9698FB35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{69F69CCD-9346-4DFB-8C87-56AE74B716F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{542735A1-713A-4D2A-B820-19E02D20C816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.Interfaces", "SuperZapatos.Interfaces\SuperZapatos.Interfaces.csproj", "{D32A8144-CD68-433B-996B-7988CC6779E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RespositoryHandlers", "RespositoryHandlers", "{019D74B4-985C-4A1C-8454-76293F7035E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.SqlRepositoryHandler", "SuperZapatos.SqlRepositoryHandler\SuperZapatos.SqlRepositoryHandler.csproj", "{ACD9E09D-B0B3-44AB-8B53-7F320B23A040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.WebApiRepositoryHandler", "SuperZapatos.WebApiReposityHandler\SuperZapatos.WebApiRepositoryHandler.csproj", "{2EF8DC8A-DF02-4C55-9135-146FEA94E915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.WebApi", "SuperZapatos.WebApi\SuperZapatos.WebApi.csproj", "{4AD94219-0024-46D4-97D4-E81676827649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.WebApp", "SuperZapatos.WebApp\SuperZapatos.WebApp.csproj", "{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{690E763C-2738-416D-839B-0052743CE164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690E763C-2738-416D-839B-0052743CE164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690E763C-2738-416D-839B-0052743CE164}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{690E763C-2738-416D-839B-0052743CE164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690E763C-2738-416D-839B-0052743CE164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690E763C-2738-416D-839B-0052743CE164}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5F1809CB-F401-4E21-B258-A2F808FD4FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1809CB-F401-4E21-B258-A2F808FD4FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1809CB-F401-4E21-B258-A2F808FD4FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1809CB-F401-4E21-B258-A2F808FD4FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7690C943-1775-40FC-9C7B-FA364233D32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7690C943-1775-40FC-9C7B-FA364233D32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7690C943-1775-40FC-9C7B-FA364233D32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7690C943-1775-40FC-9C7B-FA364233D32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D32A8144-CD68-433B-996B-7988CC6779E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32A8144-CD68-433B-996B-7988CC6779E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32A8144-CD68-433B-996B-7988CC6779E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32A8144-CD68-433B-996B-7988CC6779E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD9E09D-B0B3-44AB-8B53-7F320B23A040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD9E09D-B0B3-44AB-8B53-7F320B23A040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD9E09D-B0B3-44AB-8B53-7F320B23A040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD9E09D-B0B3-44AB-8B53-7F320B23A040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF8DC8A-DF02-4C55-9135-146FEA94E915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF8DC8A-DF02-4C55-9135-146FEA94E915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF8DC8A-DF02-4C55-9135-146FEA94E915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF8DC8A-DF02-4C55-9135-146FEA94E915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD94219-0024-46D4-97D4-E81676827649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD94219-0024-46D4-97D4-E81676827649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD94219-0024-46D4-97D4-E81676827649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD94219-0024-46D4-97D4-E81676827649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{690E763C-2738-416D-839B-0052743CE164} = {69F69CCD-9346-4DFB-8C87-56AE74B716F2}
+		{5F1809CB-F401-4E21-B258-A2F808FD4FE6} = {5738C27A-D7AF-4388-A739-66BFFFB9F862}
+		{7690C943-1775-40FC-9C7B-FA364233D32A} = {6541C7F7-491F-4AD9-A45D-BCEB9698FB35}
+		{D32A8144-CD68-433B-996B-7988CC6779E3} = {542735A1-713A-4D2A-B820-19E02D20C816}
+		{ACD9E09D-B0B3-44AB-8B53-7F320B23A040} = {019D74B4-985C-4A1C-8454-76293F7035E2}
+		{2EF8DC8A-DF02-4C55-9135-146FEA94E915} = {019D74B4-985C-4A1C-8454-76293F7035E2}
+	EndGlobalSection
+EndGlobal
