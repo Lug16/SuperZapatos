@@ -3,6 +3,7 @@ using SuperZapatos.WebApiReposityHandler;
 using SuperZapatos.WebApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace SuperZapatos.WebApp.Controllers
 {
     public class ArticlesController : Controller
     {
-        WebApiRepositoryHandler repository = new WebApiRepositoryHandler("http://localhost/SuperZapatos.WebApi/services/");
+        WebApiRepositoryHandler repository = new WebApiRepositoryHandler(ConfigurationManager.AppSettings["WebRespositoryUrl"]);
 
         // GET: Articles
         public ActionResult Index()

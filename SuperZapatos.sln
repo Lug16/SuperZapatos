@@ -14,6 +14,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{6541C7F7-491F-4AD9-A45D-BCEB9698FB35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{69F69CCD-9346-4DFB-8C87-56AE74B716F2}"
+	ProjectSection(SolutionItems) = preProject
+		db\SuperZapatos.sql = db\SuperZapatos.sql
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{542735A1-713A-4D2A-B820-19E02D20C816}"
 EndProject
@@ -28,6 +31,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.WebApi", "SuperZapatos.WebApi\SuperZapatos.WebApi.csproj", "{4AD94219-0024-46D4-97D4-E81676827649}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperZapatos.WebApp", "SuperZapatos.WebApp\SuperZapatos.WebApp.csproj", "{46BEBAD5-D5E3-4CA1-B34D-5D60904357BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5993D622-3CA1-4D89-B0A3-1EF7B1753A31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

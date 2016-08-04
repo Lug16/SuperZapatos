@@ -8,12 +8,13 @@ using System.Web;
 using System.Web.Mvc;
 using SuperZapatos.Models.Primitives;
 using SuperZapatos.WebApiReposityHandler;
+using System.Configuration;
 
 namespace SuperZapatos.WebApp.Controllers
 {
     public class StoresController : Controller
     {
-        WebApiRepositoryHandler repository = new WebApiRepositoryHandler("http://localhost/SuperZapatos.WebApi/services/");
+        WebApiRepositoryHandler repository = new WebApiRepositoryHandler(ConfigurationManager.AppSettings["WebRespositoryUrl"]);
         // GET: Stores
         public ActionResult Index()
         {
